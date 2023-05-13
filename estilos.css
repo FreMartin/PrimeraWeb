@@ -1,0 +1,47 @@
+/* asigno caracteristicas a todos los body*/
+body{
+    background-color: crimson;
+    font-family: 'roboto', sans-serif;
+}
+/* asingno caracteristicas a todos los h especificados*/ 
+h1, h2 {
+    text-align: center;
+}
+/* asigno caracteristica unicamente a h1 que se encuentra dentro de un hgroup*/
+hgroup h1{
+    color: blue;
+}
+p{
+    color: brown;
+    font-size: 24px;
+}
+/* Caracteristicas del parrafo que contiene el Id especificado "ParrafoEspecial" */
+/* Id se abre con hashtag*/
+#ParrafoEspecial {
+    font-size: 1.5en;
+    font-weight: bold;
+}
+/* Caracteristicas de la clase que contiene el nombre especificado "sub" */
+/* clase se abre con punto*/
+.sub {
+    color: blue;
+    font-size: italic;
+}
+/* caracteristicas de los link e imagenes*/
+a, img{
+    display: block;
+}
+a{
+    margin: 50px 20px;
+    text-decoration: none;
+    color: black;
+}
+/* caracteristica de cambio de color en el link al colocar el cursor sobre el"*/
+a:hover{
+    color: aqua;
+}
+/* carcateristicas de posicion de la imagen*/
+img {
+    width: 70%;
+    margin: auto;
+}
